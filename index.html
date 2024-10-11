@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      @keyframes float {
+        0% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-20px);
+        }
+        100% {
+          transform: translateY(0px);
+        }
+      }
+      .shoes-choices:hover {
+        border: 1px solid white;
+        border-radius: 1rem;
+        width: min-content;
+      }
+    </style>
+  </head>
+  <body
+    style="
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgb(185, 125, 47);
+    "
+  >
+    <nav
+      style="
+        display: flex;
+        justify-content: space-between;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      "
+    >
+      <img
+        src="https://www.mfi.org.ph/wp-content/uploads/2020/04/mfi-logo.png"
+        alt="logo"
+        style="width: 40px"
+      />
+      <ul style="display: flex; gap: 20px; list-style: none">
+        <li>
+          <a
+            href="#"
+            style="
+              font-weight: bold;
+              font-size: larger;
+              color: white;
+              filter: drop-shadow(1px 1px 1px black);
+            "
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+            style="
+              font-weight: bold;
+              font-size: larger;
+              color: white;
+              filter: drop-shadow(1px 1px 1px black);
+            "
+          >
+            About
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+            style="
+              font-weight: bold;
+              font-size: larger;
+              color: white;
+              filter: drop-shadow(1px 1px 1px black);
+            "
+          >
+            Contacts
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <main
+      style="
+        display: flex;
+        align-items: center;
+        flex: 1;
+        padding: 3rem;
+        gap: 3rem;
+      "
+    >
+      <div>
+        <img
+          src="https://pngimg.com/d/running_shoes_PNG5816.png"
+          alt="shoes"
+          style="
+            width: 400px;
+            animation: float 2s ease-in-out infinite;
+            transition: all;
+          "
+        />
+      </div>
+      <div style="flex: 1; display: flex; flex-direction: column">
+        <div style="padding: 2rem; color: whitesmoke">
+          <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+            quam similique, eaque iusto, reprehenderit rem quisquam beatae
+            molestias porro nostrum perspiciatis minus ipsa ut assumenda maxime
+            voluptas nemo id molestiae!
+          </h1>
+        </div>
+        <div style="display: flex; gap: 1rem">
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              align-items: center;
+              padding: 1rem;
+              justify-content: space-between;
+            "
+            class="shoes-choices"
+          >
+            <img
+              src="https://parspng.com/wp-content/uploads/2023/02/shoespng.parspng.com-14.png"
+              alt="sample"
+              style="width: 100px"
+            />
+            <h5>P5,000</h5>
+          </div>
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              align-items: center;
+              padding: 1rem;
+              justify-content: space-between;
+            "
+            class="shoes-choices"
+          >
+            <img
+              src="https://www.freeiconspng.com/thumbs/shoes-png/green-running-shoes-png-24.png"
+              alt="sample"
+              style="width: 100px"
+            />
+            <h5>P6,000</h5>
+          </div>
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              align-items: center;
+              padding: 1rem;
+              justify-content: space-between;
+            "
+            class="shoes-choices"
+          >
+            <img
+              src="https://static.vecteezy.com/system/resources/thumbnails/030/761/291/small/modern-sport-sneakers-blue-color-ai-generative-free-png.png"
+              alt="sample"
+              style="width: 100px"
+            />
+            <h5>P3,000</h5>
+          </div>
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              align-items: center;
+              padding: 1rem;
+              justify-content: space-between;
+            "
+            class="shoes-choices"
+          >
+            <img
+              src="https://www.transparentpng.com/thumb/adidas-shoes/a4xO3G-adidas-shoes-adidas-shoe-kids-superstar-daddy-grade.png"
+              alt="sample"
+              style="width: 100px"
+            />
+            <h5>P15,000</h5>
+          </div>
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              align-items: center;
+              padding: 1rem;
+              justify-content: space-between;
+            "
+            class="shoes-choices"
+          >
+            <img
+              src="https://pngimg.com/d/running_shoes_PNG5823.png"
+              alt="sample"
+              style="width: 100px"
+            />
+            <h5>P1,000</h5>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
